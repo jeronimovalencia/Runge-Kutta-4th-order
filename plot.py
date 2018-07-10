@@ -3,7 +3,7 @@ import numpy as np
 
 datosPendulo = np.genfromtxt("datosPendulo.dat")
 
-plt.figure()
+plt.figure(figsize=(10,10))
 plt.subplot(211)
 plt.title("Ángulo vs. Tiempo")
 plt.plot(datosPendulo[:,0],datosPendulo[:,1], label = "Pendulo")
