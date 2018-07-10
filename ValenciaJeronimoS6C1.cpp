@@ -3,7 +3,7 @@
 
 double x_min = 0.0;
 double x_max= 10.0;
-double N = 10000;
+double N = 100000;
 double h = (x_max-x_min)/N;
 
 double m=1.;
